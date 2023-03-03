@@ -1,38 +1,135 @@
-.App {
+#hd1{
+  text-align: center;
+  background-color: rgb(19, 19, 76);
+  color: white;
+  padding:20px;
+  margin: 0px;
+}
+.row{
+  display: flex;
+}
+.col{
+  margin:10px;
+  border: 2px solid lightgray;
+}
+#hd2{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.col1{
+  padding: 5px;
+  width:20%;
+  background-color: #f5f0e1;
+  border-radius:5px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.col2{
+  padding: 5px;
+  width:80%;
+  border-radius:5px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.plr-sbj{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction:column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+.plr-sbj-row{
+  margin: 8px;
+  padding:20px;
+  width:80%;
+  background-color: rgb(19, 19, 76);
+  color: white;
+  border-radius:10px;
+}
+.col2-row1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f0e1;
+  padding: 5px;
+}
+#inpt{
+  padding:10px;
+  width:60%;
+  border-radius:30px;
+}
+#btn1{
+  padding:10px;
+  border-radius:10px;
+  margin:2px;
+  background-color: greenyellow;
+}
+#btn2{
+  padding:10px;
+  border-radius:10px;
+  background-color: rgb(219, 20, 60);
+  color: white;
+}
+.col2-row2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:5px;
+}
+table{
+  width: 90%;
+}
+th{
+  border: 2px solid lightgray;
+  padding:10px;
+  background-color: rgb(19, 19, 76);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+td{
+  border: 2px solid lightgray;
+  padding:10px;
+}
+.col2-row21{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  margin:5px;
+  margin-top:20px;
+}
+.pc-btn{
+  padding:10px;
+  margin:10px;
+  background-color: rgb(19, 19, 76);
+  color: white;
+  border-radius: 10px;
+  width:100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 600px) {
+  .row{
+    display: flex;
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+  .col1{
+    padding: 5px;
+    width:94%;
+    background-color: #f5f0e1;
+    border-radius:5px;
+  }
+  .col2{
+    padding: 5px;
+    width:94%;
+    border-radius:5px;
+  }
+  .plr-sbj{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .plr-sbj-row{
+    margin: 8px;
+    padding:10px;
+    width:20%;
+    background-color: rgb(19, 19, 76);
+    color: white;
+    border-radius:10px;
   }
 }
