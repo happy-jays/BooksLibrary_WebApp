@@ -102,18 +102,29 @@ td{
 }
 
 @media screen and (max-width: 600px) {
+  #hd1{
+    text-align: center;
+    background-color: rgb(19, 19, 76);
+    color: white;
+    padding:10px;
+    margin: 0px;
+  }
   .row{
     display: flex;
     flex-direction: column;
   }
+  .col{
+    margin:5px;
+    border: 2px solid lightgray;
+  }
   .col1{
-    padding: 5px;
+    padding:2px;
     width:94%;
     background-color: #f5f0e1;
     border-radius:5px;
   }
   .col2{
-    padding: 5px;
+    padding: 3px;
     width:94%;
     border-radius:5px;
   }
@@ -127,9 +138,30 @@ td{
   .plr-sbj-row{
     margin: 8px;
     padding:10px;
-    width:20%;
+    width:25%;
     background-color: rgb(19, 19, 76);
     color: white;
     border-radius:10px;
+  }
+  .col2-row21{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+  }
+  table{
+    width: 70%;
+  }
+  th{
+    border: 2px solid lightgray;
+    padding:3px;
+    background-color: rgb(19, 19, 76);
+    color: white;
+  }
+  
+  td{
+    border: 2px solid lightgray;
+    padding:3px;
   }
 }
